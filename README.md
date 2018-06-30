@@ -6,6 +6,7 @@ pollo - hexdump tool
 
 ### Windows
     mingw32-make
+    
 ### MacOS and Linux
     make
 
