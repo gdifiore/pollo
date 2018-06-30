@@ -1,3 +1,9 @@
+# VS Code
+*.vscode
+
+# Testing
+test.*
+
 # Prerequisites
 *.d
 
