@@ -18,6 +18,10 @@ unsigned char object_buffer[16];
 int i, c, offset;
 
 int main(int argc, char **argv) {
+    #ifdef DEBUG
+    printf("%s in debug mode\n", toolname);
+    printf("v%s by %s\n\n", version, author);
+    #endif   
     if (argc < 2) {
         printf("[!] Error: No file\n");
         printf("Usage: %s <file path> <start offset>\n\n", argv[0]);
